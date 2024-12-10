@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro superhéroes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <h2>Superheroes de Marvel</h2>
+    <nav>
+        <ul>
+            <li onclick="window.location.href='index.html'" src="index.html">Home</li>
+            <li onclick="window.location.href='login.html'" src="login.html">Login</li>
+            <li onclick="window.location.href='heroes.html'" src="heroes.html">Listado de Superhéroes</li>
+            <li onclick="window.location.href='registro.html'" src="registro.html">Registrar Superhéroe</li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section>
+        <h2>Formulario de Registro</h2>
+        <fieldset>
+            <legend>Datos del Superhéroe</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text"><br><br>
+            <label for="seleccion de poderes">Selección de poderes</label>
+            <select>
+                <option value="selecciona un poder">--Selecciona un Poder--</option>
+                <option value="vuelo">Vuelo</option>
+                <option value="super fuerza">Super Fuerza</option>
+                <option value="invisibilidad">Invisibilidad</option>
+                <option value="Telepatia">Telepatía</option>
+                <option value="Velocidad sobrehumana">Velocidad sobrehumana</option>
+                <option value="Control de elementos">Control de elementos</option>
+                <option value="Regeneracion">Regeneración</option>
+            </select><br><br>
+            <label for="genero">Género: </label>
+            <input type="radio" name="masculino" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="femenino" id="femenino">
+            <label for="Femenino">Femenino</label><br><br>
+            <label for="habilidades especiales">Habilidades especiales: </label>
+            <input type="checkbox" name="vuelo" id="Vuelo"><label for="vuelo">Vuelo</label>
+            <input type="checkbox" name="superfuerza" id="Superfuerza"><label for="superfuerza">Superfuerza</label>
+            <input type="checkbox" name="invisibilidad" id="Invisibilidad"><label for="invisibilidad">Invisibilidad</label><br><br>
+            <label for="subir foto">Subir imagen</label> <input type="file" name="foto" id="foto"><br><br>
+            <label for="descripcion detallada">Descripción detallada: </label>
+            <textarea></textarea><br><br>
+            <input value="Registrar Superhéroe" type="submit" name="Registrar Superhéroe">
+        </fieldset>
+    </section>
+</body>
+<footer>
+    <label for="modulo-de-lenguaje-de-marcas">Módulo de Lenguaje de Marcas</label><br><br>
+    <label>Profesora: Marta López Martos</label><br><br>
+    <label>Alumno: Jose Antonio Espino Daza</label>
+</footer>
+</html>
